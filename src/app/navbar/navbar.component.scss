@@ -1,0 +1,79 @@
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1140px;
+  color: white;
+  padding: 2rem 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+}
+.navButton_country {
+  background-color: #003580;
+  color: white;
+  margin-left: 20px;
+  border: none;
+  height: 24px;
+  width: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.navButton_flag {
+  background-color: #003580;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.navButton_flag img {
+  border-radius: 50%;
+  background-color: #003580;
+  height: 24px;
+  width: 24px;
+}
+
+.navButton_question {
+  margin-left: 20px;
+  background-color: #003580;
+  border-radius: 50%;
+  color: white;
+  padding: 5px 8px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1.5px solid white;
+}
+.navButton_property {
+  background-color: #003580;
+  margin-left: 20px;
+  color: white;
+  padding: 8px 12px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1.5px solid white;
+}
+.navButton_common {
+  margin-left: 7px;
+  outline-color: #003580;
+  padding: 8px 12px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #2d75dbd8;
+}

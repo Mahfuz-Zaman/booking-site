@@ -1,0 +1,41 @@
+.discount {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.discount_container {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(./../../assets/images/worldmap.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 2rem;
+  border: 1px solid #e7e7e7;
+}
+.discount_content {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+.discount_content p {
+  margin: 1.5rem 0rem;
+}
+.discount_signIn {
+  border: 1px solid #003580;
+  padding: 8px 12px;
+  font-weight: 900;
+  cursor: pointer;
+  color: #2d75dbd8;
+}
+.discount_register {
+  border: none;
+  padding: 8px 12px;
+  font-weight: 900;
+  cursor: pointer;
+  color: #2d75dbd8;
+  margin-left: 1rem;
+}

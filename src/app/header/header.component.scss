@@ -1,0 +1,119 @@
+.header {
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+  // padding-top: 1.5rem;
+}
+
+.header_container {
+  width: 100%;
+  max-width: 1110px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px 100px 0px;
+}
+
+.header_list {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.headerListItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+.headerListItem:hover {
+  background-color: rgba(151, 174, 206, 0.192);
+  border-radius: 20px;
+}
+.headerListItem.active {
+  border: 1px solid white;
+  background-color: rgba(151, 174, 206, 0.192);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.header_text h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.header_text h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+// --------------------------------------
+.header_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search_container {
+  max-width: 1100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 0.5fr 0.5fr;
+  gap: 0.3rem;
+  margin: 0.3rem;
+  height: 60px;
+  background-color: #febb02;
+  padding: 0.3rem;
+  position: relative;
+  top: -40px;
+  border-radius: 5px;
+}
+.search_btn {
+  color: white;
+  background: #2771a5;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+.search_btn:hover {
+  background: #00487a;
+}
+.search_container input {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+.search_container select {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+.search_checkbox {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  gap: 0.3rem;
+  position: relative;
+  top: -30px;
+  font-size: 16px;
+  
+}
+.covid {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+ border: 1px solid #e7e7e7;
+ padding: 2rem;
+}
+.covid span {
+  padding: .8rem 1rem;
+  background-color: #FFF0E0;
+  color: #923e01;
+
+}
+.covid a{
+  color: #003580;
+  font-weight: 400;
+}

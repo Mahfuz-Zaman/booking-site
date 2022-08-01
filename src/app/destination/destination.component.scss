@@ -1,0 +1,48 @@
+.destination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  height: 300px;
+}
+
+.destination_container {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.tab ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 12px 1rem;
+  margin: 24px 5px;
+  border-radius: 45px;
+  cursor: pointer;
+}
+.tab ul li:hover {
+  background-color: #f0f7fb;
+}
+
+.color {
+  border: 1px solid #003580;
+  box-shadow: 0 0 0 3px #aac1e2;
+  color: #003580;
+}
+.region_content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+.cities_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.place_content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
