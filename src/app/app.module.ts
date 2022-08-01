@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { SwiperModule } from 'swiper/angular';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +14,8 @@ import { MailListComponent } from './mail-list/mail-list.component';
 import { DestinationComponent } from './destination/destination.component';
 import { DiscountComponent } from './discount/discount.component';
 import { OffersComponent } from './offers/offers.component';
+import { ExploreBangladeshComponent } from './explore-bangladesh/explore-bangladesh.component';
+import { TypePropertyComponent } from './type-property/type-property.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +28,16 @@ import { OffersComponent } from './offers/offers.component';
     DestinationComponent,
     DiscountComponent,
     OffersComponent,
+    ExploreBangladeshComponent,
+    TypePropertyComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    SwiperModule,
+    FormsModule,
+    CommonModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
