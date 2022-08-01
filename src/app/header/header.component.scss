@@ -26,6 +26,7 @@
   padding: 10px;
   gap: 10px;
   cursor: pointer;
+  flex-wrap: wrap;
 }
 .headerListItem:hover {
   background-color: rgba(151, 174, 206, 0.192);
@@ -98,22 +99,20 @@
   position: relative;
   top: -30px;
   font-size: 16px;
-  
 }
 .covid {
   display: flex;
   max-width: 1100px;
   width: 100%;
- border: 1px solid #e7e7e7;
- padding: 2rem;
+  border: 1px solid #e7e7e7;
+  padding: 2rem;
 }
 .covid span {
-  padding: .8rem 1rem;
-  background-color: #FFF0E0;
+  padding: 0.8rem 1rem;
+  background-color: #fff0e0;
   color: #923e01;
-
 }
-.covid a{
+.covid a {
   color: #003580;
   font-weight: 400;
 }
