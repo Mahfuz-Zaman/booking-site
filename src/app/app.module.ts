@@ -16,6 +16,7 @@ import { DiscountComponent } from './discount/discount.component';
 import { OffersComponent } from './offers/offers.component';
 import { ExploreBangladeshComponent } from './explore-bangladesh/explore-bangladesh.component';
 import { TypePropertyComponent } from './type-property/type-property.component';
+import { ConnectTravelersComponent } from './connect-travelers/connect-travelers.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { TypePropertyComponent } from './type-property/type-property.component';
     OffersComponent,
     ExploreBangladeshComponent,
     TypePropertyComponent,
+    ConnectTravelersComponent,
   ],
   imports: [
     BrowserModule,
